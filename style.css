@@ -1,0 +1,106 @@
+
+body{
+  background-color: rgb(1, 5, 9);
+}
+h1{
+  color:whitesmoke;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-align: center;
+}
+
+h2{
+color: white;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 10px;
+}
+.navbar{
+  background-color:gray;
+  height: 50px;
+  color: azure;
+  border-radius: 7%;
+  border: 2px solid white;
+  margin-left: 70px;
+  margin-right: 10px;
+  justify-content: space-evenly;
+  
+}
+button{
+  border: 2px solid whitesmoke;
+align-content: end;
+  background-color: black;
+  color: white;
+  size: 30px;
+}
+.hover-button:hover{
+  border: 3px solid white ;
+  color: azure;
+  font-size:small;
+  size: 45px;
+  background-color: rgb(94, 54, 115);
+} 
+p{
+  color: white;
+  display: flex;
+  animation: disco  5s linear  2s  infinite alternate; 
+  font-size:medium;
+  text-align: center;
+  justify-content: center;
+}
+
+@keyframes disco {
+  from{
+    background-color: white;
+    color: black;
+   
+    font-size: medium;
+
+  }
+  to{
+    background-color: rgb(114, 125, 128);
+    color: black;
+
+    font-size: larger;
+   
+  }
+}
+.container{
+  height:500px;
+  width: 700px;
+  border: 2px solid whitesmoke;
+  border-radius: 10%;
+  margin-left:20px ;
+  margin-top: 20px;
+  }
+  .container2{
+    height:300px;
+    width:800px;
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+    margin-left:40px ;
+   
+    }
+ul{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+#one{
+  height: 500px; 
+  width: 700px;
+  border: 2px solid white ;
+  color: white;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+#two{
+  height: 300px; 
+  width: 600px;
+  border: 2px solid white ;
+  color: white;
+  border-radius: 10%;
+  margin-bottom: 20px;
+
+
+}
